@@ -16,13 +16,13 @@ const AddForm = () => {
     <div>
         <form action={addData}>
             <div>
-                <input className="border" type="text" name="name" />
+                <input className="border p-1 mb-4" type="text" name="name" placeholder="Name..." required />
             </div>
             <div>
-                <input className="border" type="text" name="description" />
+                <input className="border p-1" type="text" name="description" placeholder="Descritpion" required />
             </div>
             <div>
-                <button>Roll</button>
+                <button className="border-2 border-zinc-900 my-5 px-5 py-2 rounded-md">Roll</button>
             </div>
         </form>
     </div>
