@@ -1,0 +1,7 @@
+{
+  "databaseURL": "https://Audrius-s-workspace-5hrrt4.eu-central-1.xata.sh/db/pak-lig",
+  "codegen": {
+    "output": "src/xata.js",
+    "moduleType": "esm"
+  }
+}
