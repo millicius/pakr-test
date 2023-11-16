@@ -1,7 +1,7 @@
 import { getXataClient } from "../src/xata"
 const xata = getXataClient()
 
-const dataList = async () => {
+const DataList = async () => {
     const data = await xata.db.List.getAll()
 
   return (
@@ -16,4 +16,4 @@ const dataList = async () => {
   )
 }
 
-export default dataList
+export default DataList

@@ -1,4 +1,4 @@
-import DataList from '@/components/DataList'
+import DataList from '../components/DataList'
 
 export default async function Home() {
   return (
