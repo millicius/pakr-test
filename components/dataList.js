@@ -1,4 +1,4 @@
-import { getXataClient } from "@/src/xata"
+import { getXataClient } from "../src/xata"
 const xata = getXataClient()
 
 const dataList = async () => {
